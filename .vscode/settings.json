@@ -12,5 +12,6 @@
       "**/.DS_Store": true,
       "**/Thumbs.db": true,
       "**/dist/**": false,
+      "**/node_modules/**": false
     }
   }

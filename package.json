@@ -9,11 +9,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@parcel/config-default": "^2.8.3",
-    "@parcel/core": "^2.8.3"
+    "parcel-transformer-meta": "link:./parcel-transformer-meta"
   },
   "devDependencies": {
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/core": "^2.8.3",
     "@antfu/eslint-config": "^0.38.4",
-    "eslint": "^8.38.0"
-  }
+    "eslint": "^8.38.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-namer-hashless": "^1.0.4",
+    "parcel-resolver-exclude-assets": "^2.0.1",
+    "parcel-transformer-meta-image": "^1.0.4"
+  },
+  "resolverExcludeAssets": [
+
+  ]
 }

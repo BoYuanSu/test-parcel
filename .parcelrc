@@ -1,3 +1,13 @@
 {
-    "extends": "@parcel/config-default"
+    "extends": "@parcel/config-default",
+    "resolvers": [
+        "...",
+        "parcel-resolver-exclude-assets"
+    ],
+    "transformers": {
+        "*.{htm,html}": [
+            "...",
+            "parcel-transformer-meta"
+        ]
+    }
 }

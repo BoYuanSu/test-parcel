@@ -2,6 +2,7 @@
     "extends": "@antfu",
     "rules": {
         "no-console": "off",
-        "no-unused-vars": "warn"
+        "no-unused-vars": "warn",
+        "unicorn/prefer-node-protocol": "off"
     }
 }
