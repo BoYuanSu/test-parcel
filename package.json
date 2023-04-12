@@ -1,0 +1,19 @@
+{
+  "name": "test-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npm run clear && node build",
+    "clear": "rm -rf dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/core": "^2.8.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.4",
+    "eslint": "^8.38.0"
+  }
+}
